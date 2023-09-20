@@ -2,7 +2,6 @@
 
 for i in range(10):
     for j in range(10):
-        if (i != j):
-            if (j > i):
-                print(f"{i}{j}", end=", ")
+        if i != j and j > i:
+            print("{0}{1}".format(i, j), end=", ")
 print(f"89")
