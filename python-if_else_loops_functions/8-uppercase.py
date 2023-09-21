@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-
 def uppercase(str):
-
-    if ord('a') <= ord(c) <= ord('z'):
-
+    if ord(str) >= ord('A') and ord(str) <= ord('Z'):
