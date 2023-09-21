@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 def islower(c):
 
-if ord(c) = True:
-    print("c is {}".format("lower" if islower("c") else "upper"))
-else ord() = False:
-    print(" is {}".format("lower" if islower("") else "upper"))
+    if ord('a') <= ord(c) <= ord('z'):
+        if c == chr(letter_az):
+            return True
+        else:
+            return False
