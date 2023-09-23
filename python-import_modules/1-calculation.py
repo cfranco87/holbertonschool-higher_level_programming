@@ -16,3 +16,4 @@ if __name__ == "__main__":
     print("{} + {} = {}\n".format(a, b, result_sub), end="")
     print("{} + {} = {}\n".format(a, b, result_mul), end="")
     print("{} + {} = {}\n".format(a, b, result_div), end="")
+    
