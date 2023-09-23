@@ -4,5 +4,5 @@ import add_0
 
 a = 1
 b = 2
-result = (a + b)
+result = add_0.add(a, b)
 print("{} + {} = {}\n".format(a, b, result), end="")
