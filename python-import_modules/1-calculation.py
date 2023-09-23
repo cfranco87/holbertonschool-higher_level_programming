@@ -13,6 +13,6 @@ if __name__ == "__main__":
     result_div = div(a, b)
 
     print("{} + {} = {}\n".format(a, b, result_add), end="")
-    print("{} + {} = {}\n".format(a, b, result_sub), end="")
-    print("{} + {} = {}\n".format(a, b, result_mul), end="")
-    print("{} + {} = {}\n".format(a, b, result_div), end="")
+    print("{} - {} = {}\n".format(a, b, result_sub), end="")
+    print("{} * {} = {}\n".format(a, b, result_mul), end="")
+    print("{} / {} = {}\n".format(a, b, result_div), end="")
