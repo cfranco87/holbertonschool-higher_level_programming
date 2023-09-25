@@ -1,0 +1,2 @@
+Python Data Structures – Tuples
+Lists are mutable, whereas tuples are immutable. Tuples cannot be modified, added, or deleted once they've been created. Lists are defined by using parentheses to enclose the elements, which are separated by commas.
