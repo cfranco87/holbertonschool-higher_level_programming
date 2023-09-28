@@ -1,0 +1,2 @@
+Python Errors and Exceptions 
+Errors occur at compile time and run time, which can terminate the compilation or execution. Exceptions occur only at run time, just that checked exceptions can be detected at compile time. Errors are also unchecked like Runtime Exceptions. Exceptions provide you the opportunity to make your program run in normal flow.
