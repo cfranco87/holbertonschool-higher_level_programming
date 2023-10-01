@@ -1,0 +1,1 @@
+A Python class is a blueprint or template for creating objects (instances) that share a common structure and behavior. It defines the attributes (data) and methods (functions) that the objects of the class will have. Classes provide a way to create user-defined data types, allowing you to encapsulate data and functionality into a single unit. 
