@@ -4,7 +4,7 @@ Defining a BaseGeometry
 """
 
 
-    class BaseGeometry:
+class BaseGeometry:
     """
     Defines a BaseGeometry
     """
