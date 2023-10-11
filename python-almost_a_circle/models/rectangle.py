@@ -5,6 +5,9 @@ Importing Base for Rectangle class
 
 
 from .base import Base
+"""
+import base
+"""
 
 
 class Rectangle(Base):
