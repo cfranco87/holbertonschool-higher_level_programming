@@ -19,14 +19,11 @@ class Rectangle(Base):
         Call super class constructor
         """
         super().__init__(id)
-        self.__width = None
-        self.__height = None
-        self.__x = None
-        self.__y = None
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
+
 
     @property
     def width(self):
