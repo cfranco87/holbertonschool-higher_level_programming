@@ -1,4 +1,4 @@
-cd #!/usr/bin/python3
+#!/usr/bin/python3
 """
 Importing Base for Rectangle class
 """
