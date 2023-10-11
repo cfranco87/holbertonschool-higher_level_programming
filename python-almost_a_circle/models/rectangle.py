@@ -111,8 +111,10 @@ class Rectangle(Base):
         """
         if self.__width == 0 or self.__height == 0:
             return
+        for _ in range(self.y):
+            print()
         for _ in range(self.__height):
-            print('#' * self.__width)
+            print(' ' * self.x + '#' * self.__width)
 
     def __str__(self):
         """
