@@ -107,9 +107,16 @@ class Rectangle(Base):
 
     def display(self):
         """
-        0-main.py
+        displays ## rectangle
         """
         if self.__width == 0 or self.__height == 0:
             return
         for _ in range(self.__height):
             print('#' * self.__width)
+
+    def __str__(self):
+        """
+        Returns a string representation of the rectangle.
+        """
+        return (f"[Rectangle], ({self.id}), {self.__x}/{self.__y},/
+        {self.__width}/{self.__height}")
