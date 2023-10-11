@@ -19,62 +19,62 @@ class Rectangle(Base):
         Creates new instances of Rectangle.
         """
         super().__init__(id)
-        self.width = width
-        self.height = height
-        self.x = x
-        self.y = y
+        self.__width = width
+        self.__height = height
+        self.__x = x
+        self.__y = y
 
     @property
-    def get_width(self):
+    def width(self):
         """
         getter for width
         """
         return self.__width
 
     @width.setter
-    def set_width(self, width):
+    def width(self, width):
         """
         setter for width
         """
         self.__width = width
 
     @property
-    def get_height(self):
+    def height(self):
         """
         getter for  height
         """
         return self.__height
 
     @height.setter
-    def set_height(self, height):
+    def height(self, height):
         """
         setter for height
         """
         self.__height = height
 
     @property
-    def get_x(self):
+    def x(self):
         """
         getter for x
         """
         return self.__x
 
     @x.setter
-    def set_x(self, x):
+    def x(self, x):
         """
         setter for x
         """
         self.__x = x
 
     @property
-    def get_y(self):
+    def y(self):
         """
         getter for y
         """
         return self.__y
 
     @y.setter
-    def set_y(self, y):
+    def y(self, y):
         """
         setter for y
         """
