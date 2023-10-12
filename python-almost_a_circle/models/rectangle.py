@@ -142,6 +142,16 @@ class Rectangle(Base):
             if hasattr(self, key):
                 setattr(self, key, value)
 
+    def to_dictionary(self):
+        """
+        defining a dictionary within rectangle
+        """
+        return {'id': self.id,
+                'width': self.__width,
+                'height': self.__height,
+                'x': self.__x,
+                'y': self.__y}
+
     def __str__(self):
         """
         Returns a string representation of the rectangle.
