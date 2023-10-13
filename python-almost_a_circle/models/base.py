@@ -52,5 +52,5 @@ class Base:
         convert a list of dictionaries to a JSON string
         """
         if json_string is None or not json_string:
-            return "[]"
-        return json.dumps(json_string)
+            return []
+        return (json.loads(json_string))
