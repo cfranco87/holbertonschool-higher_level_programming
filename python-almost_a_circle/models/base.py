@@ -3,6 +3,7 @@
 Creating Class Base
 """
 import json
+from os import path
 
 
 class Base:
@@ -45,6 +46,31 @@ class Base:
 
         with open(filename, 'w') as f:
             f.write(lists)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """
+        Returns: Instance with all attributes already set
+        """
+        if cls.__name__ == "Rectangle":
+            r = cls(1, 1)
+        else:
+            r = cls(1)
+        r.update(**dictionary)
+        return r
+
+    @classmethod
+    def load_from_file(cls):
+        """Returns: List of instances"""
+        filename = cls.__name__ + ".json"
+        my_list = []
+
+        if path.isfile(filename):
+            with open(filename) as f:
+                list_output = cls.from_json_string(f.read())
+            for e in list_output:
+                my_list.append(cls.create(**e))
+        return my_list
 
     @staticmethod
     def from_json_string(json_string):
