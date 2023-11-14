@@ -1,0 +1,1 @@
+MySQL is a popular open-source relational database management system (RDBMS) that uses structured query language (SQL). It is known for its speed, reliability, and ease of use. MySQL is commonly used in web development and is a key component of the LAMP (Linux, Apache, MySQL, PHP/Python/Perl) and MERN (MongoDB, Express.js, React, Node.js) stacks.
