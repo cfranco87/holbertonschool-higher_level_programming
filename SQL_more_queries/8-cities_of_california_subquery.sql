@@ -3,6 +3,6 @@
 USE hbtn_0d_usa;
 
 SELECT *
-FROM states
-WHERE name = 'California'
+FROM states, cities
+WHERE states.name = 'California' AND cities.state_id = states.id
 ORDER BY cities.id ASC; 
